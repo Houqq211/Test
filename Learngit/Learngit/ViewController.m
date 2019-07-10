@@ -19,7 +19,11 @@
     // Do any additional setup after loading the view, typically from a nib.
     UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
     UILabel * label = [[UILabel alloc]init];
+    
+    
 }
-
+- (UITableView *)table{
+    return [[UITableView alloc]init];
+}
 
 @end

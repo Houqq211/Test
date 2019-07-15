@@ -20,6 +20,7 @@
     UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
     UILabel * label = [[UILabel alloc]init];
     label.text = @"test";
+    label.textColor = [UIColor yellowColor];
     
     
 }

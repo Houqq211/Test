@@ -20,12 +20,17 @@
     UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
 
     UILabel * label = [[UILabel alloc]init];
+<<<<<<< HEAD
 
 
     
     [self.view addSubview:btn];
 
 
+=======
+    label.text = @"test";
+    label.textColor = [UIColor yellowColor];
+>>>>>>> 84a95a257142f24436ebe0a1bdc5c30b111f3288
     
     
 }

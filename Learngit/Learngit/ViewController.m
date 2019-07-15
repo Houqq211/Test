@@ -21,10 +21,17 @@
 
     UILabel * label = [[UILabel alloc]init];
 
+
     
     [self.view addSubview:btn];
 
-}
 
+    
+    
+}
+- (UITableView *)table{
+    return [[UITableView alloc]init];
+
+}
 
 @end

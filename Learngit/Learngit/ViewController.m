@@ -9,7 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property(nonatomic,strong)UITableView *table;
+@property(nonatomic,strong)UICollectionView *collec;
 @end
 
 @implementation ViewController

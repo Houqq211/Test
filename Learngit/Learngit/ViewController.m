@@ -33,6 +33,7 @@
 }
 - (UICollectionView*)collec{
     UICollectionView*collec = [[UICollectionView alloc]init];
+    collec.backgroundColor = [UIColor yellowColor];
     return collec;
 }
 @end

@@ -34,6 +34,7 @@
 - (UICollectionView*)collec{
     UICollectionView*collec = [[UICollectionView alloc]init];
     collec.backgroundColor = [UIColor yellowColor];
+    collec.frame = CGRectMake(100, 100, 100, 100);
     return collec;
 }
 @end

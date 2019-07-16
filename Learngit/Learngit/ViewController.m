@@ -24,7 +24,7 @@
     label.text = @"test";
     label.textColor = [UIColor yellowColor];
 
-    
+    NSLog(@"=tableview====");
     
 }
 - (UITableView *)table{

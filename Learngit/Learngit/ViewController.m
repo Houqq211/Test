@@ -19,9 +19,21 @@
     // Do any additional setup after loading the view, typically from a nib.
     UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.backgroundColor = [UIColor redColor];
-    
     [self.view addSubview:btn];
+    UILabel * label = [[UILabel alloc]init];
+    label.text = @"test";
+    label.textColor = [UIColor yellowColor];
+
+    
+    
 }
+- (UITableView *)table{
+    return [[UITableView alloc]init];
 
-
+}
+- (UICollectionView*)collec{
+    UICollectionView*collec = [[UICollectionView alloc]init];
+    collec.backgroundColor = [UIColor yellowColor];
+    return collec;
+}
 @end

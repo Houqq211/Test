@@ -25,6 +25,7 @@
     label.text = @"test";
     label.textColor = [UIColor yellowColor];
 
+    NSLog(@"=======coloection");
     
     
 }

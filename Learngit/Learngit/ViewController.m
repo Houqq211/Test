@@ -19,18 +19,11 @@
     // Do any additional setup after loading the view, typically from a nib.
     UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
 
-    UILabel * label = [[UILabel alloc]init];
-<<<<<<< HEAD
-
-
-    
     [self.view addSubview:btn];
-
-
-=======
+    UILabel * label = [[UILabel alloc]init];
     label.text = @"test";
     label.textColor = [UIColor yellowColor];
->>>>>>> 84a95a257142f24436ebe0a1bdc5c30b111f3288
+
     
     
 }
@@ -38,5 +31,8 @@
     return [[UITableView alloc]init];
 
 }
-
+- (UICollectionView*)collec{
+    UICollectionView*collec = [[UICollectionView alloc]init];
+    return collec;
+}
 @end

@@ -28,7 +28,11 @@
     
 }
 - (UITableView *)table{
-    return [[UITableView alloc]init];
+    UITableView * tab = [[UITableView alloc] init];
+    
+    
+    return tab;
+    
 
 }
 - (UICollectionView*)collec{

@@ -9,7 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property(nonatomic,strong)UITableView *table;
+@property(nonatomic,strong)UICollectionView *collec;
 @end
 
 @implementation ViewController
@@ -24,7 +25,12 @@
     label.text = @"test";
     label.textColor = [UIColor yellowColor];
 
+
     NSLog(@"=tableview====");
+
+    NSLog(@"=======coloection");
+    
+
     
 }
 - (UITableView *)table{
@@ -38,6 +44,7 @@
 - (UICollectionView*)collec{
     UICollectionView*collec = [[UICollectionView alloc]init];
     collec.backgroundColor = [UIColor yellowColor];
+    collec.frame = CGRectMake(100, 100, 100, 100);
     return collec;
 }
 @end

@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
-
+    btn.backgroundColor = [UIColor redColor];
     [self.view addSubview:btn];
     UILabel * label = [[UILabel alloc]init];
     label.text = @"test";
